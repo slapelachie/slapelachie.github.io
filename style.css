@@ -1,0 +1,56 @@
+@import url('nord.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    background-color: var(--nord0);
+    color: var(--nord4);
+    font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+
+#header {
+    margin: 20px 0;
+    height: 50px;
+    width: 80%;
+    padding: 0 20px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+#header_cont {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#header_name {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#navigation {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 27px;
+    float: right;
+}
+
+#navigation li{
+    display: inline-block;
+}
+
+#navigation a {
+    color: var(--nord5);
+    text-decoration: none;
+    padding: 5px 10px;
+}
