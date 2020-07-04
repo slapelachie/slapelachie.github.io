@@ -14,43 +14,38 @@ body, html{
 }
 
 #header {
-    margin: 20px 0;
-    height: 50px;
-    width: 80%;
-    padding: 0 20px;
-    border-bottom-style: solid;
-    border-width: 2px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    
+    height: 100%;
 }
 
 #header_cont {
     position: relative;
     top: 50%;
+    left: 20%;
     transform: translate(0, -50%);
-}
-
-#header_name {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 20px;
-}
-
-#navigation {
-    vertical-align: middle;
-    display: inline-block;
-    line-height: 27px;
-    float: right;
-}
-
-#navigation li{
     display: inline-block;
 }
 
-#navigation a {
-    color: var(--nord5);
+#header_cont * {
+    display: block;
+}
+
+#header_cont #name {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+
+#header_cont #desc,
+#header_cont #navigation a {
+    font-size: 30px;
+}
+
+#header_cont li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#header_cont a {
+    color: var(--nord9);
     text-decoration: none;
-    padding: 5px 10px;
 }
