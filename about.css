@@ -65,3 +65,7 @@
     margin-bottom: 10px;
     text-align: justify;
 }
+
+.body-element li {
+    font-size: 15px;
+}
