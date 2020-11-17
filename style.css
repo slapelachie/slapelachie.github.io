@@ -1,17 +1,5 @@
-@import url('nord.css');
+@import url('master.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body, html{
-    background-color: var(--nord0);
-    color: var(--nord4);
-    font-family: 'Open Sans', sans-serif;
-	height: 100%;
-}
 
 #header {
     height: 100%;
@@ -43,9 +31,4 @@ body, html{
 #header_cont li {
     display: inline-block;
     margin-right: 20px;
-}
-
-#header_cont a {
-    color: var(--nord9);
-    text-decoration: none;
 }
