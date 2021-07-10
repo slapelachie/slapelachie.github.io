@@ -3,12 +3,7 @@
 :root {
   --bg: #000;
   --fg: #e7e7e7;
-  --accent: #f00;
-}
-
-* {
-  margin: 0;
-  padding: 0;
+  --accent: #12795a;
 }
 
 body,
@@ -17,9 +12,10 @@ html {
   color: var(--fg);
   font-family: 'Source Code Pro', monospace;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  color: var(--accent);
   text-decoration: none;
 }
