@@ -1,0 +1,8 @@
+@import url('/master.css');
+
+#profile {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 200px;
+}

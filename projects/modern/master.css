@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+:root {
+  --bg: #000;
+  --fg: #e7e7e7;
+  --accent: #12795a;
+}
+
+body,
+html {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: 'Source Code Pro', monospace;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}

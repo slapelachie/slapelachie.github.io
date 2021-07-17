@@ -1,21 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('assets/fonts/source-code-pro/source-code-pro.css');
 
 :root {
-  --bg: #000;
-  --fg: #e7e7e7;
-  --accent: #12795a;
+  --bg: #0b0b0b;
+  --fg: #b7b7b7;
+  --accent: #3bbbcc;
 }
 
 body,
 html {
   background-color: var(--bg);
   color: var(--fg);
-  font-family: 'Source Code Pro', monospace;
-  height: 100%;
+  font-family: "Source Code Pro", monospace;
   margin: 0;
   padding: 0;
 }
 
+body {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 a {
   text-decoration: none;
+  color: var(--accent);
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+#header {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header .title {
+    font-size: 30px;
+}
+
+#header nav a {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    margin: 50px 0;
 }

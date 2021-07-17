@@ -1,0 +1,41 @@
+@import url('master.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#header {
+    height: 100%;
+}
+
+#header_cont {
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translate(0, -50%);
+    display: inline-block;
+
+    animation: fadein .5s;
+}
+
+#header_cont * {
+    display: block;
+}
+
+#header_cont #name {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+
+#header_cont #desc,
+#header_cont #navigation a {
+    font-size: 30px;
+}
+
+#header_cont li {
+    display: inline-block;
+    margin-right: 20px;
+}
